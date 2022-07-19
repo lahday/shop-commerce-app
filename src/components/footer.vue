@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-green-primary flex flex-row justify-around h-2/4 py-4">
+  <div class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
     <div class="text-justify text-xl w-2/4">
       <p>Need to Register your Business Name or Company? Get 10% discount when you register using ShopCommerce.</p>
     </div>
-    <div class="text-justify text-sm w-1/4">
-      <p class="py-3">To take advantage of this opportunity, you need to sign up first. Follow the instruction after clicking the link below.</p>
+    <div class="text-justify w-2/5 pr-10">
+      <p class="py-3 text-md">To take advantage of this opportunity, you need to sign up first. Follow the instruction after clicking the link below.</p>
       <button class="bg-white px-16 py-1 rounded-md text-black">Sign Up</button>
-      <p class="font-bold text-sm">
+      <p class="font-thin text-sm py-1">
         Already a member? <span>LogIn</span>
       </p>
     </div>
