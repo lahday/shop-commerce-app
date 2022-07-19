@@ -7,8 +7,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: "#389246"
+        'green-primary': "#389246",
+        'green-secondary': "#3E563A"
       },
+      padding: {
+        '16' : '64px',
+        '17' : '68',
+        '18' : '72',
+        '19' : '76',
+        '20' : '80px'
+      }
     },
   },
   plugins: [],

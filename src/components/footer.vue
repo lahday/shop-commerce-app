@@ -1,22 +1,22 @@
 <template>
-  <div class="bg-green flex flex-row justify-around">
-    <div>
+  <div class="bg-green-primary flex flex-row justify-around h-2/4 py-4">
+    <div class="text-justify text-xl w-2/4">
       <p>Need to Register your Business Name or Company? Get 10% discount when you register using ShopCommerce.</p>
     </div>
-    <div>
-      <p>To take advantage of this opportunity, you need to sign up first. Follow the instruction after clicking the link below.</p>
-      <button class="bg-white px-14 py-2 rounded-md">Sign Up</button>
-      <p>
+    <div class="text-justify text-sm w-1/4">
+      <p class="py-3">To take advantage of this opportunity, you need to sign up first. Follow the instruction after clicking the link below.</p>
+      <button class="bg-white px-16 py-1 rounded-md text-black">Sign Up</button>
+      <p class="font-bold text-sm">
         Already a member? <span>LogIn</span>
       </p>
     </div>
   </div>
 
-  <div class="bg-black w-screen flex flex-row justify-between text-white">
-    <div class="items-list flex flex-row justify-between px-10">  
-    <div class="list-1 flex flex-col justify-between px-4">
-      <p>SHOP</p>
-    <ul>
+  <div class="bg-black w-screen flex flex-row justify-between text-white px-10 py-4 text-justify">
+    <div class="items-list flex flex-row justify-between">  
+    <div class="list-1 px-4">
+      <p class="font-bold text-sm">SHOP</p>
+    <ul class="text-xs py-1 font-light">
       <li> CLOTHING</li>
       <li>ACCESSORIES</li>
       <li>GADGET</li>
@@ -27,11 +27,11 @@
       <li>OTHER ITEMS</li>
     </ul>
     </div>
-    <div class="list-2">
-      <p>SHOP</p>
-    <ul>
-      <li> CLOTHING</li>
-      <li>ACCESSORIES</li>
+    <div class="list-2 px-4">
+      <p class="font-bold text-sm">BRANDS</p>
+    <ul class="text-xs py-1 font-light">
+      <li> OUR STORY</li>
+      <li>OUR IMPACT</li>
       <li>GADGET</li>
       <li>COMPUTERS</li>
       <li>PHONES</li>
@@ -40,17 +40,23 @@
       <li>OTHER ITEMS</li>
     </ul>
     </div>
-    <div class="list-3">
-      <p>SHOP</p>
-    <ul>
-      <li> CLOTHING</li>
-      <li>ACCESSORIES</li>
-      <li>GADGET</li>
-      <li>COMPUTERS</li>
-      <li>PHONES</li>
-      <li>DISCOUNTED ITEMS</li>
-      <li>HOME APPLIANCES</li>
-      <li>OTHER ITEMS</li>
+    <div class="list-3 px-4">
+      <p class="font-bold text-sm">HELP</p>
+    <ul class="text-xs py-1 font-light">
+      <li> FAQ</li>
+      <li>ACCESSIBILTY</li>
+      <li>TRACK MY ORDER</li>
+      <li>LOCATE A STORE</li>
+      <li>RETURN & EXCHANGE</li>
+    </ul>
+    </div>
+    <div class="list-4 px-4">
+      <p class="font-bold text-sm">MORE INFO</p>
+    <ul class="text-xs py-1 font-light">
+      <li> PRIVACY POLICIES</li>
+      <li>TERMS OF USE </li>
+      <li>DISCLAIMERS</li>
+      <li>PARTNERSHIP ENQUIRIES</li>
     </ul>
     </div>
     </div>
@@ -61,10 +67,12 @@
       <div>  
          <p>Follow Us Here</p>
       </div>
-      <div>
-         <font-awesome-icon icon="fa-solid fa-cart-shopping" />
-         <font-awesome-icon icon="fa-solid fa-cart-shopping" />
-         <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+      <div cl>
+         <font-awesome-icon icon="fa-brands fa-facebook"  class="px-2 text-xl"/>
+         <font-awesome-icon icon="fa-brands fa-instagram" class="px-2 text-xl" />
+         <font-awesome-icon icon="fa-brands fa-linkedin" class="px-2 text-xl" />
+         <font-awesome-icon icon="fa-brands fa-twitter-square" class="px-2 text-xl rounded-600" />
+         <font-awesome-icon icon="fa-regular fa-envelope" class="px-2 text-xl" />
       </div>
       <div>
          <p>Need to keep in touch?</p>
