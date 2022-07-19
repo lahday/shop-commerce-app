@@ -16,8 +16,9 @@
         <p>New Arrivals</p>
         <p>Shop</p>
         <p>Brands</p>
-        <form class="search-box px-10">
-          <input type="text" placeholder="search categories and brands">
+        <form class="search-box border-2 rounded-md">
+          <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="text-left px-10 text-gray-400" />
+          <input type="text" placeholder="search categories and brands" class="pr-6">
         </form>
         <p>About</p>
         <p>Find A Store</p>

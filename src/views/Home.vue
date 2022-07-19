@@ -16,19 +16,33 @@
 <div class="py-4 text-green-secondary font-bold text-2xl">
     SHOP FROM OUR COLLECTIONS!
 </div>
+<div class="flex flex-row justify-between pb-4 mx-4">
+  <img :src="require('@/assets/images/Group9.svg')" >
+  <img :src="require('@/assets/images/ShopCollections.svg')" />
+  <img :src="require('@/assets/images/ShopCollections(1).svg')"/>
+  <img :src="require('@/assets/images/ShopCollections(2).svg')"/>
+  <img :src="require('@/assets/images/ShopCollections(3).svg')" />
+  <img :src="require('@/assets/images/ShopCollections(4).svg')" />
+  <img :src="require('@/assets/images/Group8.svg')" />
+</div>
  
+ <!-- trending items-->
+ <div class="flex flex-row justify-between text-black mx-10 font-bold">
+   <p>TRENDING ITEMS</p>
+   <p>VIEW ALL</p>
+ </div>
 
   <!-- grow your business -->
- <div class="bg-green-primary mx-5">
+ <div class=" bg-green-primary mx-5">
    <p class="text-center text-2xl ">Grow Your Business Using Shopcommerce</p>
-   <p class="text-center text-md">Here Are a Few Reasons Why</p>
+   <p class="text-center text-lg">Here Are a Few Reasons Why</p>
    <div class="flex flex-row mx-10 justify-between py-5 text-black">  
      <div class="border mx-4 bg-white px-8 py-3 rounded-md">
        <p class="text-xl font-bold">Absolutely Free With No Limits</p>
        <p class="text-sm py-3">There is no limit to the number of items you can put up.
           Get different classes and categories for these items arranged 
          in an orderly manner that customers can easily find them</p>
-        <a href="#" class="text-green-primary">Learn More</a>
+        <a href="#" class=" text-green-primary">Learn More</a>
      </div>
      <div class="border mx-4 bg-white px-8 py-3 rounded-md">
        <p class="text-xl font-bold">Help Customer Locate You Faster</p>
