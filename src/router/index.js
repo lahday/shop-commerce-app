@@ -7,6 +7,7 @@ import FindStore from '../views/FindStore.vue'
 import About from '../views/About.vue'
 import Shop from '../views/Shop.vue'
 import Notfound from '../views/pagenotfound.vue'
+import SignUp from '../views/SignUp.vue'
 
 
 const routes = [
@@ -44,6 +45,11 @@ const routes = [
     path: '/findstore',
     name: 'FindStore',
     component: FindStore
+  },
+  {
+    path: '/signup',
+    name: 'SignUp',
+    component: SignUp
   },
   {
     path: '/error/page-not-found',
