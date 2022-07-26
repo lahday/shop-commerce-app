@@ -19,7 +19,7 @@ export default {
 
 <style>
 #app {
-  font-family: poppins;
+  font-family: poppins, sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

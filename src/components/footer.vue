@@ -5,7 +5,7 @@
     </div>
     <div class="text-justify w-2/5 pr-10">
       <p class="py-3 text-md">To take advantage of this opportunity, you need to sign up first. Follow the instruction after clicking the link below.</p>
-      <button class="bg-white px-16 py-1 rounded-md text-black">Sign Up</button>
+      <button class="bg-white px-17 py-1 rounded-md text-black">Sign Up</button>
       <p class="font-thin text-sm py-1">
         Already a member? <span>LogIn</span>
       </p>
