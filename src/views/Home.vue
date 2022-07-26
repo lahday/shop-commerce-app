@@ -9,7 +9,7 @@
   <div class="text-md py-2">
     Scale up your business by having a virtual store and increase your online presence
   </div>
-  <button class="bg-white text-green-secondary px-16 py-3 rounded-lg font-extrabold text-sm">Get Started</button>
+  <button class="bg-white text-green-secondary px-18 py-3 rounded-lg font-extrabold text-sm">Get Started</button>
 </div>
 
 <!-- collections -->
@@ -27,10 +27,192 @@
 </div>
  
  <!-- trending items-->
- <div class="flex flex-row justify-between text-black mx-10 font-bold">
+ <div class="flex flex-row justify-between text-black mx-10 font-bold py-3">
    <p>TRENDING ITEMS</p>
    <p>VIEW ALL</p>
  </div>
+ <section class="w-full flex flex-row justify-center items-center">
+   <div class="w-full flex flex-row justify-center items-center border-0">
+ <Splide :options="options">
+ <SplideSlide>
+   <div class="w-full h-50">
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-primary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <p>9” nude colored heels</p>
+     <p>NGN 14,500.00</p>
+   </div>
+ </SplideSlide>
+ </Splide>
+ </div>
+ </section>
+
+
+
 
   <!-- grow your business -->
  <div class=" bg-green-primary mx-5">
@@ -67,7 +249,7 @@
    </div>
  </div>
 
- <div class="pt-5 flex flex-row justify-between text-black text-justify items-center mx-10 py-5 ">
+ <div class="pt-5 flex flex-row justify-between text-black text-justify items-center mx-10 py-6 ">
    <div class="w-2/4 px-5"> 
    <p class="text-2xl font-bold">Ready to put your Business Out There?</p>
   <p class="text-md">Help your customers find what they are looking for. 
@@ -78,14 +260,298 @@
  </div>
  </div>
 
+
+ <!-- shops near you -->
+<div class="py-10">
+<div class="flex flex-row justify-between text-black mx-10 font-bold py-3">
+   <p> SHOPS NEAR YOU</p>
+   <p>VIEW ALL</p>
+ </div>
+ <section class="w-full flex flex-row justify-center items-center">
+   <div class="w-full flex flex-row justify-center items-center border-0">
+ <Splide :options="options">
+ <SplideSlide>
+   <div class="w-full h-50">
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-primary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ </Splide>
+ </div>
+  </section>
+  </div>
+
+
+<!-- discounted items-->
+<div class="py-10">
+<div class="flex flex-row justify-between text-black mx-10 font-bold py-3">
+   <p>DISCOUNTED ITEMS</p>
+   <p>VIEW ALL</p>
+ </div>
+<section class="w-full flex flex-row justify-center items-center">
+   <div class="w-full flex flex-row justify-center items-center border-0">
+ <Splide :options="options">
+ <SplideSlide>
+   <div class="w-full h-50">
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-primary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+ </Splide>
+ </div>
+  </section>
+   </div>
+
+
 </template>
 
 <script>
 
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+
 export default {
   name: 'Home',
-  components: {
-  }
+  components: { Splide, SplideSlide },
+  data () {
+    return {
+      options: {
+        rewind: true,
+        width: 1350,
+        height: 230,
+        perPage: 7,
+        perMove: 1,
+        autoplay: true,
+        focus: 'start',
+        gap: '0.5rem',
+        arrows: true,
+        pagination: false,
+        speed: 100 
+  
+      },
+    }
+  },
 }
 </script>
 
