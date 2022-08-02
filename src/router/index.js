@@ -8,6 +8,10 @@ import About from '../views/About.vue'
 import Shop from '../views/Shop.vue'
 import Notfound from '../views/pagenotfound.vue'
 import SignUp from '../views/SignUp.vue'
+import Create from '../views/Create.vue'
+import Login from '../components/Login.vue'
+import Successful from '../views/Successful.vue'
+
 
 
 const routes = [
@@ -50,6 +54,21 @@ const routes = [
     path: '/signup',
     name: 'SignUp',
     component: SignUp
+  },
+  {
+    path: '/create',
+    name: 'Create',
+    component: Create
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/successful',
+    name: 'Successful',
+    component: Successful
   },
   {
     path: '/error/page-not-found',
