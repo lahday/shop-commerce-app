@@ -7,8 +7,8 @@
 
 
 <script>
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Header from '@/components/header.vue'
+import Footer from '@/components/footer.vue'
 
 export default {
  components : {
