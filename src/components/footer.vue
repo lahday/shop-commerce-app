@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!showNeedToRegister" class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
+  <div class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
     <div class="text-justify text-xl w-2/4">
       <p>Need to Register your Business Name or Company? Get 10% discount when you register using ShopCommerce.</p>
     </div>
@@ -89,14 +89,14 @@
 <script>
 
 export default {
-  computed: {
-  showNeedToRegister(){
-    return this.$route.path==='/SignUp' 
-    || this.route.path==='/Create' 
-    || this.route.path==='/Ownercreate'
-    || this.route.path==='/Ownersignup'
-    || this.route.path==='/Successful'
-  }
-  }
+  // computed: {
+  // showNeedToRegister(){
+  //   return this.$route.path==='/SignUp' 
+  //   || this.route.path==='/Create' 
+  //   || this.route.path==='/Ownercreate'
+  //   || this.route.path==='/Ownersignup'
+  //   || this.route.path==='/Successful'
+  // }
+  // }
 }
 </script>

@@ -10,7 +10,7 @@
         <p @click="getForm('Create')">CREATE MY STORE</p>
       </div>
 
-      <ul class="nav-header bg-white flex flex-row justify-between items-center py-4 text-black px-10 text-justify">
+      <ul class="nav-header bg-white flex flex-row justify-between items-center py-4 no-underline text-black px-10 text-justify">
 
         <router-link to="/">
             <li @click="makeCurrent('home')" :class="{current : home }" class="flex">  
@@ -91,6 +91,9 @@
     .logo-1{
       font-style: 'lobster';
       font-family: 'Lobster Two', cursive;
+    }
+    .mid-header{
+      cursor: pointer;
     }
     </style>
 
