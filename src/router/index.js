@@ -6,11 +6,13 @@ import Account from '../views/Account.vue'
 import FindStore from '../views/FindStore.vue'
 import About from '../views/About.vue'
 import Shop from '../views/Shop.vue'
+import Forms from '../views/Forms/index.vue'
 import Notfound from '../views/pagenotfound.vue'
-import SignUp from '../views/SignUp.vue'
-import Create from '../views/Create.vue'
-import Login from '../components/Login.vue'
-import Successful from '../views/Successful.vue'
+
+// import SignUp from '../views/SignUp.vue'
+// import Create from '../views/Create.vue'
+// import Login from '../components/Login.vue'
+// import Successful from '../views/Successful.vue'
 
 
 
@@ -51,25 +53,30 @@ const routes = [
     component: FindStore
   },
   {
-    path: '/signup',
-    name: 'SignUp',
-    component: SignUp
+    path: '/:form',
+    name: 'Forms',
+    component: Forms
   },
-  {
-    path: '/create',
-    name: 'Create',
-    component: Create
-  },
-  {
-    path: '/login',
-    name: 'Login',
-    component: Login
-  },
-  {
-    path: '/successful',
-    name: 'Successful',
-    component: Successful
-  },
+  // {
+  //   path: '/signup',
+  //   name: 'SignUp',
+  //   component: SignUp
+  // },
+  // {
+  //   path: '/create',
+  //   name: 'Create',
+  //   component: Create
+  // },
+  // {
+  //   path: '/login',
+  //   name: 'Login',
+  //   component: Login
+  // },
+  // {
+  //   path: '/successful',
+  //   name: 'Successful',
+  //   component: Successful
+  // },
   {
     path: '/error/page-not-found',
     name: 'NotFound',

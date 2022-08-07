@@ -1,36 +1,77 @@
-import { createForms, createWebHistory } from 'vue-forms';
-import Ownersignup from '../components/Ownersignup.vue'
-import Ownercreate from '../components/Ownercreate.vue'
-import Login from '../components/Login.vue'
+<template>
+  <div class="flex justify-center items-center">
+    <component :is='component'></component>
+  </div>
+</template>
 
 
+<script>
+import Create from '@/components/Create.vue' 
+import Login from '@/components/Login.vue' 
+import Ownercreate from '@/components/Ownercreate.vue' 
+import Ownersignup from '@/components/Ownersignup.vue' 
+import Signup from '@/components/SignUp.vue' 
+import Successful from '@/components/Successful.vue' 
 
-const forms = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
+export default {
+  name:'index-comp',
+  components: {
+    Create,Login,Ownercreate, Ownersignup ,Signup, Successful
   },
-  {
-    path: '/ownersignup',
-    name: 'Ownersignup',
-    component: Ownersignup
-  },
-  {
-    path: '/ownercreated',
-    name: 'Ownercreate',
-    component: Ownercreate
-  },
-  {
-    path: '/login',
-    name: 'Login',
-    component: Login
+  data() {
+    return {
+      component: this.$route.params.form
   }
-]
+}
+}
 
-const forms = createForms({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+</script>
 
-export default forms
+
+
+
+
+
+
+
+
+
+
+
+
+// import { createForms, createWebHistory } from 'vue-forms';
+// import Ownersignup from '../components/Ownersignup.vue'
+// import Ownercreate from '../components/Ownercreate.vue'
+// import Login from '../components/Login.vue'
+
+
+
+// const forms = [
+//   {
+//     path: '/',
+//     name: 'Home',
+//     component: Home
+//   },
+//   {
+//     path: '/ownersignup',
+//     name: 'Ownersignup',
+//     component: Ownersignup
+//   },
+//   {
+//     path: '/ownercreated',
+//     name: 'Ownercreate',
+//     component: Ownercreate
+//   },
+//   {
+//     path: '/login',
+//     name: 'Login',
+//     component: Login
+//   }
+// ]
+
+// const forms = createForms({
+//   history: createWebHistory(process.env.BASE_URL),
+//   routes
+// })
+
+// export default forms

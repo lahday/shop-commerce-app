@@ -6,7 +6,7 @@
         </div>
       <div class="text-center bg-white-500">
         <h1 class="login text-green-500 mt-5 mb-3 text text-2xl font-bold">Log In</h1>
-        <h5 class="text-black leading-normal mb-3 font-bold leading-tight">Sign in to your account and enjoy an amazing shopping <br> experience and access to other benefits.</h5>
+        <h5 class="text-black mb-3 font-bold leading-tight">Sign in to your account and enjoy an amazing shopping <br> experience and access to other benefits.</h5>
         <p class="text-green-600 mb-4 text-xl mt-4 underline">NEW TO SHOPCOMMERCE <a href="#">SIGN UP</a></p>
         <form @submit.prevent="signUp" class="py-3">
             

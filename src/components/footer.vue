@@ -17,7 +17,9 @@
     <div class="list-1 px-4">
       <p class="font-bold text-sm">SHOP</p>
     <ul class="text-xs py-1 font-light">
-      <li> CLOTHING</li>
+      <li> 
+        CLOTHING
+      </li>
       <li>ACCESSORIES</li>
       <li>GADGET</li>
       <li>COMPUTERS</li>

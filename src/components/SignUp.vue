@@ -6,7 +6,7 @@
         </div>
       <div class="text-center bg-white-500">
         <h1 class="text-green-500 mt-5 mb-3 text text-xl font-bold">Create an Account</h1>
-        <h5 class="text-black leading-normal mb-3 font-bold leading-tight">Create an account on ShopCommerce and get all your items <br> all in one place and other benefits.</h5>
+        <h5 class="text-black mb-3 font-bold leading-tight">Create an account on ShopCommerce and get all your items <br> all in one place and other benefits.</h5>
         <p class="text-green-600 mb-3 text-sm underline">Already have an account? <a href="#">Sign up</a></p>
         <h2 class="text-green-600 mb-4 text-xl">New Account As a Business Owner</h2>
         <form @submit.prevent="signUp" class="py-3">

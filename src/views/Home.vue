@@ -106,51 +106,7 @@
      </div>
    </div>
  </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
+
  <SplideSlide>
    <div>
      <img :src="require('@/assets/images/item1.svg')" />
@@ -172,20 +128,7 @@
      <p>NGN 14,500.00</p>
    </div>
  </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <p>9” nude colored heels</p>
-     <p>NGN 14,500.00</p>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <p>9” nude colored heels</p>
-     <p>NGN 14,500.00</p>
-   </div>
- </SplideSlide>
+
  <SplideSlide>
    <div>
      <img :src="require('@/assets/images/item1.svg')" />
@@ -256,14 +199,14 @@
     Put up all your items with no limits. Just a few clicks and you are good to go</p>
    </div>
    <div class="px-3 text-center items-center">
-      <button class="text-green-secondary px-16 py-3 rounded-md font-extrabold text-sm border-black border-solid bottom-4 shadow-lg">Get Started</button>
+      <button class="text-green-secondary px-16 py-3 rounded-md font-extrabold text-sm border-black border-solid bottom-4 shadow-lg" @click="getform('Signup')">Get Started</button>
  </div>
  </div>
 
 
  <!-- shops near you -->
 <div class="py-10">
-<div class="flex flex-row justify-between text-black mx-10 font-bold py-3">
+<div class="flex flex-row justify-between text-black mx-10 font-bold py-3 border-t-2 border-b-2 border-black">
    <p> SHOPS NEAR YOU</p>
    <p>VIEW ALL</p>
  </div>
@@ -279,51 +222,7 @@
      </div>
    </div>
  </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
+ 
  <SplideSlide>
    <div>
      <img :src="require('@/assets/images/item1.svg')" />
@@ -395,7 +294,7 @@
 
 <!-- discounted items-->
 <div class="py-10">
-<div class="flex flex-row justify-between text-black mx-10 font-bold py-3">
+<div class="flex flex-row justify-between text-black mx-10 font-bold py-3 border-t-2 border-b-2 border-black">
    <p>DISCOUNTED ITEMS</p>
    <p>VIEW ALL</p>
  </div>
@@ -420,6 +319,17 @@
      </div>
    </div>
  </SplideSlide>
+
+ <SplideSlide>
+   <div>
+     <img :src="require('@/assets/images/item1.svg')" />
+     <div class="text-green-secondary">
+       <p>9” nude colored heels</p>
+       <p>NGN 14,500.00</p>
+     </div>
+   </div>
+ </SplideSlide>
+
  <SplideSlide>
    <div>
      <img :src="require('@/assets/images/item1.svg')" />
@@ -438,69 +348,7 @@
      </div>
    </div>
  </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
- <SplideSlide>
-   <div>
-     <img :src="require('@/assets/images/item1.svg')" />
-     <div class="text-green-secondary">
-       <p>9” nude colored heels</p>
-       <p>NGN 14,500.00</p>
-     </div>
-   </div>
- </SplideSlide>
+ 
  <SplideSlide>
    <div>
      <img :src="require('@/assets/images/item1.svg')" />
@@ -539,12 +387,12 @@ export default {
       options: {
         rewind: true,
         width: 1350,
-        height: 230,
-        perPage: 7,
+        height: 250,
+        perPage: 6,
         perMove: 1,
         autoplay: true,
         focus: 'start',
-        gap: '0.5rem',
+        gap: '1rem',
         arrows: true,
         pagination: false,
         speed: 100 
@@ -552,6 +400,17 @@ export default {
       },
     }
   },
+  methods: {
+     getForm (comp) {
+      this.$router.push({
+        name: 'Forms',
+        params: {
+          form: comp
+        }
+      })
+    },
+  }
+
 }
 </script>
 
