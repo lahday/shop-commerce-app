@@ -93,7 +93,7 @@
       font-family: 'Lobster Two', cursive;
     }
     .mid-header{
-      cursor: pointer;
+      cursor: pointer;  
     }
     </style>
 

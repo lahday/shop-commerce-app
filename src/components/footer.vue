@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
+  <div v-if="!showNeedToRegister" class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
     <div class="text-justify text-xl w-2/4">
       <p>Need to Register your Business Name or Company? Get 10% discount when you register using ShopCommerce.</p>
     </div>
     <div class="text-justify w-2/5 pr-10">
       <p class="py-3 text-md">To take advantage of this opportunity, you need to sign up first. Follow the instruction after clicking the link below.</p>
-      <button class="bg-white px-17 py-1 rounded-md text-black">Sign Up</button>
+      <button class="bg-white px-17 py-1 rounded-md text-black" @click="getForm('SignUp')">Sign Up</button>
       <p class="font-thin text-sm py-1">
-        Already a member? <span>LogIn</span>
+        Already a member? <span @click="getForm('Login')">LogIn</span>
       </p>
     </div>
   </div>
@@ -89,14 +89,22 @@
 <script>
 
 export default {
-  // computed: {
-  // showNeedToRegister(){
-  //   return this.$route.path==='/SignUp' 
-  //   || this.route.path==='/Create' 
-  //   || this.route.path==='/Ownercreate'
-  //   || this.route.path==='/Ownersignup'
-  //   || this.route.path==='/Successful'
-  // }
-  // }
+  methods: {
+    getForm (comp) {
+      this.$router.push({
+        name: 'Forms',
+        params: {
+          form: comp
+        }
+      })
+    },
+  },
+  computed: {
+  showNeedToRegister(){
+    return this.$route.path==='/SignUp' || this.$route.path==='/Create' || this.$route.path==='/Ownercreate'
+    || this.$route.path==='/Ownersignup'
+    || this.$route.path==='/Successful'
+  }
+  }
 }
 </script>
