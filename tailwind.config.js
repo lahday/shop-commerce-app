@@ -6,10 +6,10 @@ module.exports = {
     './pages/**/*.vue',
     './plugins/**/*.{js,ts}',
   ],
-  // content: [
-  //   "./index.html",
-  //   "./src/**/*.{vue,js,ts,jsx,tsx}",
-  // ],
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
