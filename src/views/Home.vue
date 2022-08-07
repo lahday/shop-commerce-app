@@ -9,7 +9,7 @@
   <div class="text-md py-2">
     Scale up your business by having a virtual store and increase your online presence
   </div>
-  <button class="bg-white text-green-secondary px-18 py-3 rounded-lg font-extrabold text-sm">Get Started</button>
+  <button class="bg-white text-green-secondary px-18 py-3 rounded-lg font-extrabold text-sm" @click="getForm('Ownercreate')">Get Started</button>
 </div>
 
 <!-- collections -->
@@ -199,7 +199,7 @@
     Put up all your items with no limits. Just a few clicks and you are good to go</p>
    </div>
    <div class="px-3 text-center items-center">
-      <button class="text-green-secondary px-16 py-3 rounded-md font-extrabold text-sm border-black border-solid bottom-4 shadow-lg" @click="getform('Signup')">Get Started</button>
+      <button class="text-green-secondary px-16 py-3 rounded-md font-extrabold text-sm border-black border-solid bottom-4 shadow-lg" @click="getForm('SignUp')">Get Started</button>
  </div>
  </div>
 

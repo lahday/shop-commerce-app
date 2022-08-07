@@ -10,13 +10,13 @@ import Create from '@/components/Create.vue'
 import Login from '@/components/Login.vue' 
 import Ownercreate from '@/components/Ownercreate.vue' 
 import Ownersignup from '@/components/Ownersignup.vue' 
-import Signup from '@/components/SignUp.vue' 
+import SignUp from '@/components/SignUp.vue' 
 import Successful from '@/components/Successful.vue' 
 
 export default {
   name:'index-comp',
   components: {
-    Create,Login,Ownercreate, Ownersignup ,Signup, Successful
+    Create,Login,Ownercreate, Ownersignup ,SignUp, Successful
   },
   data() {
     return {

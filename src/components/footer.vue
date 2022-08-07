@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
+  <div v-if="!showNeedToRegister" class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
     <div class="text-justify text-xl w-2/4">
       <p>Need to Register your Business Name or Company? Get 10% discount when you register using ShopCommerce.</p>
     </div>
@@ -69,7 +69,7 @@
       <div>  
          <p>Follow Us Here</p>
       </div>
-      <div cl>
+      <div>
          <font-awesome-icon icon="fa-brands fa-facebook"  class="px-2 text-xl"/>
          <font-awesome-icon icon="fa-brands fa-instagram" class="px-2 text-xl" />
          <font-awesome-icon icon="fa-brands fa-linkedin" class="px-2 text-xl" />
@@ -89,6 +89,14 @@
 <script>
 
 export default {
-  
+  computed: {
+  showNeedToRegister(){
+    return this.$route.path==='/SignUp' 
+    || this.route.path==='/Create' 
+    || this.route.path==='/Ownercreate'
+    || this.route.path==='/Ownersignup'
+    || this.route.path==='/Successful'
+  }
+  }
 }
 </script>

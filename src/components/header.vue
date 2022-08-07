@@ -6,8 +6,8 @@
         <p class="text-sm">X</p>
       </div>
       <div class="mid-header bg-black flex flex-row justify-end px-10 text-white font-bold py-4 text-sm" > 
-        <p class="px-5" @click="getform('Login')">LOG IN</p>
-        <p class="">CREATE MY STORE</p>
+        <p class="px-5" @click="getForm('Login')">LOG IN</p>
+        <p @click="getForm('Create')">CREATE MY STORE</p>
       </div>
 
       <ul class="nav-header bg-white flex flex-row justify-between items-center py-4 text-black px-10 text-justify">
@@ -45,7 +45,7 @@
         </router-link>
         
         <router-link to="/account">
-          <li @click="makeCurrent('account')" :class="{ current : accoun}">My Account</li>
+          <li @click="makeCurrent('account')" :class="{ current : account}">My Account</li>
         </router-link>
         
 
