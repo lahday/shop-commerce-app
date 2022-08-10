@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!showNeedToRegister" class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
+ <div v-if="!showNeedToRegister" class="bg-green-primary flex flex-row justify-between px-10 py-4 items-center">
     <div class="text-justify text-xl w-2/4">
       <p>Need to Register your Business Name or Company? Get 10% discount when you register using ShopCommerce.</p>
     </div>
@@ -10,9 +10,9 @@
         Already a member? <span @click="getForm('Login')">LogIn</span>
       </p>
     </div>
-  </div>
+   </div>
 
-  <div class="bg-black w-screen flex flex-row justify-between text-white px-10 py-4 text-justify">
+    <div class="bg-black w-screen flex flex-row justify-between text-white px-10 py-4 text-justify">
     <div class="items-list flex flex-row justify-between">  
     <div class="list-1 px-4">
       <p class="font-bold text-sm">SHOP</p>
@@ -78,11 +78,11 @@
       </div>
       <div>
          <p>Need to keep in touch?</p>
-         <p>Send a mail to info@shopcommerce.com
-            available 24 hours, 7 days a week.</p>
+         <p>Send a mail to info@shopcommerce.com <br>
+             24 hours, 7 days a week.</p>
       </div>
     </div>
-  </div>
+   </div>
 </template>
 
 

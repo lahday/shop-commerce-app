@@ -1,9 +1,10 @@
 <template>
 <div id="successful-signup">
-    <div class="container">
-        <div class="logo">
+    <div class="logo">
             <img :src="require('@/assets/images/success.png')" />
         </div>
+    <div class="container">
+        
         <div class="text-center">
             <h1 class="first-head mb-3">Create Account</h1>
             <h2 class="text-green-600 mb-4 text-lg">NEW ACCOUNT AS A BUSINESS OWNER</h2>
@@ -44,10 +45,7 @@ export default {
 </script>
 
 
-<style scoped>
- .logo{
-    width:100vw;
- }
+<style scoped> 
 
  .first-head{
     margin-top: 1.5rem;
@@ -70,6 +68,11 @@ export default {
     background: transparent;
     border:1px solid #389246;
     padding: 12px 35px;
+}
+
+.btn1 a:hover{
+    background: #389246;
+    color: #fff;
 }
 
  

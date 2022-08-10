@@ -1,9 +1,10 @@
 <template>
 <div id="Create">
-    <div class="container">
-        <div class="header-logo">
+    <div class="header-logo">
             <img :src="require('@/assets/images/Frame 6.png')" />
         </div>
+    <div class="container">
+        
       <div class="text-center bg-white-500">
         <h1 class="text-green-500 mt-5 mb-3 text text-xl font-bold">Create an Account</h1>
         <h5 class="text-black leading-normal mb-3 font-bold leading-tight">Create an account on ShopCommerce and get all your items <br> all in one place and other benefits.</h5>
@@ -74,9 +75,7 @@ export default {
     margin-bottom: 2rem;
  }
 
- .header-logo{
-    width: 100vw;
- }
+
 
  .form-control{
     width: 100%;

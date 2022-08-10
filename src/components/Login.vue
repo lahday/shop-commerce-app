@@ -1,9 +1,9 @@
 <template>
 <div id="Create">
-    <div class="container">
-        <div class="header-logo">
+   <div class="header-logo">
             <img :src="require('@/assets/images/Frame 6.png')" />
         </div>
+    <div class="container">
       <div class="text-center bg-white-500">
         <h1 class="login text-green-500 mt-5 mb-3 text text-2xl font-bold">Log In</h1>
         <h5 class="text-black mb-3 font-bold leading-tight">Sign in to your account and enjoy an amazing shopping <br> experience and access to other benefits.</h5>
